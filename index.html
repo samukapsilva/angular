@@ -1,0 +1,18 @@
+<html ng-app="primeiroAngular">
+<head>
+<title></title>
+<script src="angular.js"></script>
+<script>
+	angular.module("primeiroAngular",[]);
+	angular.module("primeiroAngular").controller("primeiroAngularCtrl",function($scope){
+	$scope.message = "Primeiro aplicativo com Angular!";
+	});
+</script>
+<head>
+<body>
+<div ng-controller="primeiroAngularCtrl">
+{{message}}
+</div>
+
+</body>
+</html>
